@@ -56,7 +56,7 @@
 			progress: true,
 
 			// Display the page number of the current slide
-			slideNumber: false,
+			slideNumber: true,
 
 			// Determine which displays to show the slide number on
 			showSlideNumber: 'all',
@@ -126,7 +126,7 @@
 			mouseWheel: false,
 
 			// Apply a 3D roll to links on hover
-			rollingLinks: false,
+			rollingLinks: true,
 
 			// Hides the address bar on mobile devices
 			hideAddressBar: true,

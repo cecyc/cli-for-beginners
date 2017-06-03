@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Command Line for N00bs</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
@@ -24,8 +24,299 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h1>Command Line for Nonprogrammers and Beginners</h1>
+					<p><a href="http://twitter.com/cecycorrea">@cecycorrea</a></p>
+				</section>
+				<section data-background="https://media.giphy.com/media/dzaUX7CAG0Ihi/giphy.gif">
+					<h2 class="text-bg">I'm Cecy Correa</h2>
+					<p>Software Engineer Return Path / Context.IO</p>
+				</section>
+				<section>
+					<h2>Why this talk?</h2>
+					<p class="fragment">There are a lot of misconceptions of what the command line can do.</p>
+				</section>
+				<section data-background="images/hacking.gif">
+				</section>
+				<section>
+					<h2>Representations of tech in the media</h2>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/msX4oAXpvUE" frameborder="0" allowfullscreen></iframe>
+				</section>
+				<section>
+					<h2>Made me feel learning the command line was something I'd never do</h2>
+				</section>
+				<section>
+					<h2>If you're a beginner,<br> don't be afraid</h2>
+				</section>
+				<section>
+					<h2>If you're not a programmer,<br> you can work with the command line too!</h2>
+				</section>
+				<section>
+					<h2>Command line is for everyone<br> ❤️</h2>
+				</section>
+				<section>
+					<h2>What is Unix?</h2>
+					<img src="images/unix.gif">
+				</section>
+				<section>
+					<h2>Unix is</h2>
+					<ul>
+						<li class="fragment">An operating system for operating systems</li>
+						<li class="fragment">A type of file system</li>
+						<li class="fragment">A set of "philosophies"</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Unix and Unix-like systems</h2>
+					<ul>
+						<li class="fragment">MacOS is Unix</li>
+						<li class="fragment">Linux is Unix-like</li>
+					</ul>
+					<p class="fragment">PC users, I will cover you in a bit!</p>
+				</section>
+				<section>
+					<h2>Terminal or<br>command line or<br>shell?</h2>
+				</section>
+				<section>
+					<h2>Terminal</h2>
+					<p>The application  / GUI </p>
+					<img src="images/terminal.png">
+				</section>
+				<section>
+					<ul>
+						<li>Terminal (comes with MacOS)</li>
+						<li>iTerm</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Shell</h2>
+					<p>Program processes the commands</p>
+				</section>
+				<section>
+					<h2>A Terminal runs a Shell</h2>
+				</section>
+				<section>
+					<h2>Shells🐚</h2>
+					<p>There are different types of shells!</p>
+				</section>
+				<section>
+					<h2>shell (sh)</h2>
+					<p>Developed by Stephen Bourne in 1977!</p>
+					<p>Not the first shell ever, but the one that most other shells are "based" on.</p>
+				</section>
+				<section>
+					<h2>So bored right now!</h2>
+					<img src="images/bored.gif">
+				</section>
+				<section>
+					<h2>Other shells</h2>
+					<ul>
+						<li class="fragment">c-shell (csh)</li>
+						<li class="fragment">Korn shell (ksh)</li>
+					</ul>
+				</section>
+				<section>
+					<h2>bash</h2>
+					<p>bash = Bourne Again Shell (1989)</p>
+					<p class="fragment">Get it? Because the inventor of sh is Stephen <em>Bourne</em>?</p>
+				</section>
+				<section>
+					<h2>Other other shells</h2>
+					<ul>
+						<li class="fragment">z-shell, zsh (1990)</li>
+						<li class="fragment">fish (2005)</li>
+					</ul>
+					<p class="fragment">We'll come back to those!</p>
+				</section>
+				<section>
+					<h2>Why bash</h2>
+					<ul>
+						<li>bash is found in most systems (definitely MacOs, Linux)</li>
+						<li><a href="https://www.windowscentral.com/how-install-bash-shell-command-line-windows-10 ">Now available</a> on Windows&trade;!</li>
+						<li>Also useful when accessing a remote server</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Further word on Windows</h2>
+					<ul>
+						<li>cygwin</li>
+					</ul>
+				</section>
+				<section data-background="images/fun-stuf.gif">
+					<h2 class="text-bg">Let's get to the fun stuff!</h2>
+				</section>
+				<section>
+					<h2>Demo time</h2>
+				</section>
+				<section>
+					<h2>Review</h2>
+				</section>
+				<section>
+					<h2>Command line basics</h2>
+					<code>$ pwd</code>
+					<p class="fragment"><span class="red">P</span>rint <span class="red">W</span>orking <span class="red">D</span>irectory</p>
+					<p class="fragment">Don't be afraid to use it! Use it all the time!</p>
+				</section>
+				<section>
+					<h2>Command line basics</h2>
+					<code>$ ls</code>
+					<p class="fragment"><span class="red">L</span>i<span class="red">S</span>t files in a directory</p>
+				</section>
+				<section>
+					<h2>Command line basics</h2>
+					<code>$ ls -a</code>
+					<p class="fragment"><span class="red">L</span>i<span class="red">S</span>t files and <em>hidden</em> 👻 files in a directory</p>
+				</section>
+				<section>
+					<h2>Navigation</h2>
+					<code>$ pwd</code><br>
+					<code>$ ls</code><br>
+					<code>$ cd</code><br>
+					<p class="fragment">REPEAT</p>
+				</section>
+				<section>
+					<h2>Demo time</h2>
+				</section>
+				<section>
+					<h2>Review</h2>
+				</section>
+				<section>
+					<h2>Make things!</h2>
+					<code>$mkdir</code>
+					<p class="fragment"><span class="red">M</span>a<span class="red">K</span>e a <span class="red">DIR</span>ectory</p>
+				</section>
+				<section>
+					<h2>Make things!</h2>
+					<code>$ touch</code>
+					<p class="fragment">Create a file</p>
+				</section>
+				<section>
+					<h2>Daisy chaining</h2>
+					<code>$ mkdir test && cd test && pwd && touch test.txt && ls</code>
+				</section>
+				<section>
+					<h2>Demo time</h2>
+				</section>
+				<section>
+					<h2>Review</h2>
+				</section>
+				<section>
+					<h2>Other cool commands</h2>
+					<ul>
+						<li>cal</li>
+						<li>date</li>
+						<li>top</li>
+						<li>kill</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Advanced awesomesauce</h2>
+				</section>
+				<section>
+					<h2>Hide desktop files</h2>
+					<code>defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app</code>
+				</section>
+				<section>
+					<h2>Show desktop files</h2>
+					<code>defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app</code>
+				</section>
+				<section>
+					<h2>No way I'll rememeber that!</h2>
+					<p class="fragment">Use aliases for that!</p>
+				</section>
+				<section>
+					<h2>Aliases</h2>
+					<p>Like custom "autocorrect" in iOS</p>
+				</section>
+				<section>
+				<h2>Alias example</h2>
+					<code>
+						alias hideDesktop="defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app"
+					</code>
+					<p class="fragment">Set this in a .bash_profile</p>
+				</section>
+				<section data-background="images/level-up.gif">
+					<h2 class="text-bg">Super level up time!</h2>
+				</section>
+				<section>
+					<h2>Customize your Terminal</h2>
+				</section>
+				<section>
+					<h2>Demo time</h2>
+				</section>
+				<section>
+					<ul>
+						<li class="fragment">Select themes</li>
+						<li class="fragment">Make your own theme</li>
+						<li class="fragment">Download themes</li>
+						<li class="fragment">Change fonts</li>
+						<li class="fragment">Save / switch different profiles</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Make your Terminal a place you want to spend time in!</h2>
+				</section>
+				<section data-background="images/matrix.gif">
+					<h2>Super level up!</h2>
+				</section>
+				<section>
+					<h2>Homebrew 🍺</h2>
+					<code>http://brew.sh</code>
+					<p>Install and manage tons of stuff!</p>
+				</section>
+				<section>
+					<h2>Brew Cask</h2>
+					<code>$ brew cask install google-chrome</code>
+				</section>
+				<section>
+					<h2>Easy computer setup</h2>
+					<p>Create a simple bash script that installs applications<br>
+					setup.sh
+					</p>
+					<code>/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</code><br>
+					<code>brew cask install google-chrome</code><br>
+					<code>brew cask install spotify</code><br>
+					<code>brew cask install iterm2</code><br>
+					<code>brew cask install sublime-text</code>
+				</section>
+				<section>
+					<h2>Other shells!</h2>
+				</section>
+				<section>
+					<h2>zsh</h2>
+					<ul>
+						<li class="fragment">Created in 1990</li>
+						<li class="fragment">Autocompletion</li>
+						<li class="fragment">Spelling correction</li>
+						<li class="fragment">Not case sensitive</li>
+						<li class="fragment">Themable</li>
+						<li class="fragment">Plugins!</li>
+					</ul>
+				</section>
+				<section>
+					<h2>fish</h2>
+					<ul>
+						<li class="fragment">Created in 2005!</li>
+						<li class="fragment">Stands for Friendly Interactive Shell</li>
+						<li class="fragment">Lightweight</li>
+						<li class="fragment">Autocompletion</li>
+						<li class="fragment">Suggestions</li>
+						<li class="fragment">Themes</li>
+						<li class="fragment">Plugins</li>
+						<li class="fragment">Syntax is more different from bash than zsh</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Further reading</h2>
+					<ul>
+						<li>Bash pocket guide (O'Reilly)</li>
+						<li>Learning Unix for Mac OS (O'Reilly)</li>
+						<li>The Linux Command Line (No Starch Press)</li>
+					</ul>
+				</section>
+				<section data-background="images/thanks.gif">
+					<h2>Thank you!</h2>
+				</section>
 			</div>
 		</div>
 
