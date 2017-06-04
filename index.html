@@ -214,11 +214,11 @@
 				</section>
 				<section>
 					<h2>Hide desktop files</h2>
-					<code>defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app</code>
+					<code>defaults write com.apple.finder CreateDesktop -bool false;killall Finder</code>
 				</section>
 				<section>
 					<h2>Show desktop files</h2>
-					<code>defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app</code>
+					<code>defaults write com.apple.finder CreateDesktop -bool true;killall Finder</code>
 				</section>
 				<section>
 					<h2>No way I'll rememeber that!</h2>
